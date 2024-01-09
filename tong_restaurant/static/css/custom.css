@@ -1,0 +1,14 @@
+.container-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+}
+.img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 12px;
+}
+.food-items {
+  width: 50%;
+}

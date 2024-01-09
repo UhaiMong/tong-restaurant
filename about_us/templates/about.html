@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet"
+    href="{% static 'css/about.css' %}">
+<div class="container">
+    <h1>About us</h1>
+    <div class="about-us">
+        <img class="img"
+            src="{% static 'images/tong.png' %}"
+            alt="about us">
+        <p class="about">The exterior of the restaurant, a captivating blend of modern concrete and time-worn brick
+            walls, stands as a
+            visual
+            metaphor for the fusion of eras. It’s a living embodiment of the history that has unfolded within its walls.
+            As you
+            enter, the exposed ceiling serves as a gateway to the past, a silent witness to the passage of time. The
+            walls adorned
+            with Shou-shugi ban burnt wood tell a fiery tale, adding to the mystique that envelops Tong Restaurant.</p>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet"
+    href="{%static 'css/custom.css'%}">
+<div class="container">
+    <div class="container-wrapper"
+        style="display: flex; justify-content: space-evenly; align-items: center;">
+        <div style="display: flex; justify-content: space-between; align-items: center;"
+            class="img">
+            <img style="width: 300px; height: 300px;"
+                src="{% static 'images/food.jpg' %}"
+                alt="Restaurant">
+            <img style="width: 300px; height: 300px;"
+                src="{% static 'images/Indian_Food.jpg' %}"
+                alt="Items">
+        </div>
+        <div class="food-items">
+            <h1>Our Food Items</h1>
+            <ol>
+                <li>Burgers</li>
+                <li>Pizza</li>
+                <li>Tacos</li>
+                <li> Sushi</li>
+                <li>Fried Chicken</li>
+                <li>Steak</li>
+                <li>Pasta</li>
+                <li>Seafood</li>
+                <li> Salad</li>
+                <li>Sandwiches</li>
+            </ol>
+        </div>
+    </div>
+</div>
+{% endblock %}
